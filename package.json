@@ -1,0 +1,28 @@
+{
+  "name": "code-gaon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Free, offline-first, voice-led coding & AI learning game for Indian students - block coding, train-your-own-AI, terminal, Git and Python.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "blockly": "^11.1.1",
+    "idb-keyval": "^6.2.1",
+    "preact": "^10.24.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.20.5",
+    "vitest": "^2.1.4"
+  }
+}
